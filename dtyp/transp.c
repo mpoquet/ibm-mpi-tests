@@ -67,7 +67,7 @@ char **argv;
       printf("Testcase %s uses one task, extraneous task #%d exited.\n",argv[0],me);
 #endif
       MPI_Finalize(); 
-      exit();
+      exit(1);
     }
 
     /* leftmost stride== 400, middle stride==40, rightmost== 4 */ 

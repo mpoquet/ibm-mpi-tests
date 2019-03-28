@@ -69,7 +69,7 @@ int main()
      printf("Testcase uses two tasks, extraneous task #%d exited.\n",me);
 #endif
      MPI_Finalize(); 
-     exit();
+     exit(1);
    }
    for (i=0;i<MSZ;i++) {
      check[i] = i;

@@ -63,7 +63,7 @@ int main()
       printf("Testcase uses two tasks, extraneous task #%d exited.\n",me);
  #endif
       MPI_Finalize(); 
-      exit();
+      exit(1);
     }
    len = 1;
    MPI_Address(&ii,&disp);

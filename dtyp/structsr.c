@@ -75,7 +75,7 @@ char **argv;
       printf("Testcase uses two tasks, extraneous task #%d exited.\n",me);
 #endif
       MPI_Finalize(); 
-      exit();
+      exit(1);
     }
 
     MPI_Comm_rank( MPI_COMM_WORLD, &myrank );

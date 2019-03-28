@@ -71,7 +71,7 @@ char **argv;
       printf("Testcase %s uses one task, extraneous task #%d exited.\n",argv[0],me);
  #endif
       MPI_Finalize(); 
-      exit();
+      exit(1);
     }
 
 /* Typemap for MPI_SHORT_INT is: { {short,0) (int,4) } extent==8 */

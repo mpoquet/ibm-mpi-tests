@@ -74,7 +74,7 @@ char **argv;
       printf("Testcase %s uses two tasks, extraneous task #%d exited.\n",argv[0],me);
 #endif
       MPI_Finalize(); 
-      exit();
+      exit(1);
     }
     other = me ? 0 : 1; 
 

@@ -67,7 +67,7 @@ char **argv;
       printf("Testcase %s uses one task, extraneous task #%d exited.\n",argv[0],me);
 #endif
       MPI_Finalize(); 
-      exit();
+      exit(1);
     }
 
     MPI_Type_contiguous(4,MPI_DOUBLE_INT,&type_ia);

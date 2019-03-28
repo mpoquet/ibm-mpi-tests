@@ -66,7 +66,7 @@ int main()
      printf("Testcase uses two tasks, extraneous task #%d exited.\n",me);
 #endif
      MPI_Finalize(); 
-     exit();
+     exit(1);
    }
    aot[0] = MPI_LB; aob[0] = 1; aod[0] = 6;
    aot[1] = MPI_UB; aob[1] = 1; aod[1] = 8;
