@@ -36,7 +36,7 @@
 */
 #include "mpi.h"
 
-void main()
+int main()
 {
    int in,out,i,done;
    int myself,tasks;

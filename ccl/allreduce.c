@@ -38,7 +38,7 @@
 
 #define MAXLEN 10000
  
-void main()
+int main()
 {
    int out[MAXLEN],in[MAXLEN],i,j,k;
    int myself,tasks;

@@ -36,7 +36,7 @@
 */
 #include "mpi.h"
 
-void main()
+int main()
 {
    int myself,tasks;
    MPI_Status status;

@@ -37,7 +37,7 @@
 #include "mpi.h"
 #define MSZ 10
  
-void main()
+int main()
 {
    int myself,tasks;
    MPI_Status status;

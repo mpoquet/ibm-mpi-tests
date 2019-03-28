@@ -66,7 +66,7 @@ void myhandler2(MPI_Comm *comm,int *code,char *routine,int *flag,int *val)
    }
 }
 
-void main()
+int main()
 {
    int size,me,tasks,rc,class;
    MPI_Errhandler handler1,handler2,commhandler;
